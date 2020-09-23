@@ -1,0 +1,52 @@
+/* GENERAL STYLE */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Titolo */
+.title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Prima parte */
+.col-1 img {
+  width: 50%;
+  float: left;
+}
+
+.left img {
+  width: 250px;
+  margin-left: 10%;
+}
+
+.right img {
+  width: 300px;
+  margin-left: 20%;
+}
+
+/* Seconda parte */
+.container.grey {
+  background: lightgrey;
+  height: 300px;
+}
+
+.col-2 h1 {
+  text-align: center;
+  margin-top: 20%;
+}
