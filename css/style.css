@@ -1,21 +1,7 @@
 /* GENERAL STYLE */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container::after {
-  content: '';
-  display: table;
-  clear: both;
+body {
+  font-family: sans-serif;
 }
 
 /* Titolo */
@@ -30,23 +16,48 @@
   float: left;
 }
 
-.left img {
-  width: 250px;
+.left {
+  width: 40%;
+  height: 50px;
   margin-left: 10%;
 }
 
-.right img {
-  width: 300px;
-  margin-left: 20%;
+ .left p {
+  padding-top: 2%;
+  margin-right: 55%;
+  text-align: center;
+}
+
+.left h3 {
+  padding-top: 24%;
+  text-align: center;
+  margin-right: 56%;
+}
+
+.right {
+  width: 50%;
+  margin-left: 67%;
+}
+
+.right p {
+ padding-top: 2%;
+ margin-right: 50%;
+ text-align: center;
+}
+
+.right h3 {
+ padding-top: 31%;
+ text-align: center;
+ margin-right: 50%;
 }
 
 /* Seconda parte */
-.container.grey {
+ .container.grey {
   background: lightgrey;
   height: 300px;
 }
 
-.col-2 h1 {
+.titolo-2 {
   text-align: center;
-  margin-top: 20%;
+  margin-top: 4%;
 }
